@@ -16,5 +16,6 @@ public class Datasource {
         }
         return wordList;
     }
-
+    Datasource mDatasource = new Datasource();
+    LinkedList<Word> mWordList = mDatasource.loadWords();
 }
